@@ -1,0 +1,77 @@
+.login-container,
+.register-container {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  height: 100vh;
+}
+
+.wrap-category-selection-container {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+}
+
+.login-form,
+.register-form,
+.category-selection-container {
+  width: 300px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.btn-login,
+.btn-register,
+.btn-proceed {
+  background-color: #1db954;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-login:hover {
+  opacity: 0.8;
+}
+
+.btn-register:hover {
+  opacity: 0.8;
+}
+
+.btn-proceed:hover {
+  opacity: 0.8;
+}
+
+.registration-link {
+  color: #1db954;
+  text-decoration: none;
+}
+
+.registration-link:hover {
+  text-decoration: underline;
+}
+
+.list-group-item {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.list-group-item-clicked {
+  background-color: #1db954;
+  color: white;
+  padding: 20px 0;
+}
+
+.list-group-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  font-size: 24px;
+}

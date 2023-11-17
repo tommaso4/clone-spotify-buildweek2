@@ -1,0 +1,212 @@
+#first-main-div {
+  background-image: linear-gradient(to bottom, rgb(136, 136, 0) 0%, #121212 95%, #121212 100%);
+}
+@media screen and (min-width: 768px) {
+  #first-main-div {
+    background-image: linear-gradient(to bottom, rgb(136, 136, 0) 0%, rgb(136, 136, 0) 100%);
+  }
+}
+#first-main-div #main-div-1 #header #arrows button {
+  width: 25px;
+  height: 25px;
+  border: none;
+  border-radius: 100%;
+  background-color: rgba(60, 60, 60, 0.5);
+  color: white;
+  cursor: default;
+}
+#first-main-div #main-div-1 #header #arrows .existing {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+#first-main-div #main-div-1 #header #arrows .existing:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#first-main-div #main-div-1 #header #user-info {
+  background-color: rgba(40, 40, 40, 0.5);
+  cursor: pointer;
+  border-radius: 50px;
+  max-width: 140px;
+}
+#first-main-div #main-div-1 #header #user-info:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#first-main-div #main-div-1 #header #user-info img {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+}
+#first-main-div #main-div-1 #header #user-info p {
+  font-weight: 700;
+  font-size: 0.8rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+}
+#first-main-div #main-div-1 #header #user-info i {
+  right: 5px;
+}
+#first-main-div #main-div-1 #main-div-1-1 i {
+  top: 24px;
+  left: 0;
+  font-size: 1.5rem;
+}
+#first-main-div #main-div-1 #main-div-1-1 img {
+  width: 200px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+#first-main-div #main-div-1 #main-div-1-2 h1 {
+  font-size: 1.4rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+}
+@media screen and (min-width: 768px) {
+  #first-main-div #main-div-1 #main-div-1-2 h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #first-main-div #main-div-1 #main-div-1-2 h1 {
+    font-size: 4rem;
+  }
+}
+#first-main-div #main-div-1 #main-div-1-2 > div img {
+  border-radius: 100%;
+  width: 25px;
+}
+#first-main-div #main-div-1 #main-div-1-2 > div h2 {
+  font-size: 0.8rem;
+}
+#first-main-div #main-div-1 #main-div-1-2 .grey {
+  color: rgb(214, 214, 214);
+  font-size: 0.8rem;
+}
+#first-main-div #main-div-1 #main-div-1-2 .grey i {
+  font-size: 0.2rem;
+  vertical-align: middle;
+}
+#first-main-div #main-div-1 #main-div-1-2 #album {
+  font-size: 0.6rem;
+  font-weight: 700;
+  bottom: -5px;
+}
+#first-main-div #main-div-1 #main-div-1-2 #album-artist {
+  color: white;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+}
+#first-main-div #main-div-1 #main-div-1-2 #album-artist span {
+  color: rgb(214, 214, 214);
+}
+#first-main-div #main-div-1 #main-div-1-2 #album-artist span i {
+  font-size: 0.2rem;
+  vertical-align: middle;
+}
+#first-main-div #main-div-1 #main-div-1-2 #album-artist span:last-child {
+  color: rgb(178, 178, 178);
+}
+@media screen and (min-width: 768px) {
+  #first-main-div #main-div-2 {
+    margin-top: 25px;
+    padding-top: 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+#first-main-div #main-div-2 i {
+  font-size: 1.2rem;
+}
+#first-main-div #main-div-2 .play-div {
+  width: 40px;
+  height: 40px;
+  background-color: #1db954;
+  border-radius: 100%;
+}
+#first-main-div #main-div-2 .play-div i {
+  margin-left: 2px;
+}
+#first-main-div #main-div-2 .menu i {
+  font-size: 0.2rem;
+}
+
+#second-main-div {
+  background-color: #121212;
+}
+@media screen and (min-width: 768px) {
+  #second-main-div {
+    background-image: linear-gradient(to bottom, rgb(136, 136, 0) 0%, #121212 20%);
+  }
+}
+#second-main-div #legend {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#second-main-div #legend .div-2-1,
+#second-main-div #legend .div-2-2,
+#second-main-div #legend .div-2-3,
+#second-main-div #legend .div-2-4 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+#second-main-div .div-2-1 {
+  flex: 0 0 10%;
+}
+@media screen and (min-width: 992px) {
+  #second-main-div .div-2-1 {
+    flex: 0 0 8%;
+  }
+}
+#second-main-div .div-2-2 {
+  flex: 0 0 70%;
+}
+@media screen and (min-width: 992px) {
+  #second-main-div .div-2-2 {
+    flex: 0 0 52%;
+  }
+}
+#second-main-div .div-2-3 {
+  flex: 0 0 20%;
+}
+#second-main-div .div-2-4 {
+  flex: 0 0 20%;
+}
+@media screen and (min-width: 768px) {
+  #second-main-div .song {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+#second-main-div .song h3 {
+  font-size: 0.9rem;
+}
+#second-main-div .song h4 {
+  font-size: 0.8rem;
+  color: rgb(178, 178, 178);
+}
+#second-main-div .song .menu i {
+  font-size: 0.2rem;
+}
+
+/*# sourceMappingURL=albums.css.map */
+.track-row:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+  border-radius: 5px;
+}
+
+.track-row:hover .hide-icon {
+  display: block !important;
+}
+
+.track-row:hover .play-hover {
+  display: block !important;
+}
+
+.track-row:hover .number-hover {
+  display: none !important;
+}
+
+.icon-hover:hover {
+  color:  #1db954;
+}

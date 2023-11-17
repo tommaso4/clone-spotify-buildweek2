@@ -1,0 +1,211 @@
+#header #arrows button {
+  width: 25px;
+  height: 25px;
+  border: none;
+  border-radius: 100%;
+  background-color: rgba(60, 60, 60, 0.5);
+  color: white;
+  cursor: default;
+}
+#header #arrows .existing {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+#header #arrows .existing:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#header #user-info {
+  background-color: rgba(40, 40, 40, 0.5);
+  cursor: pointer;
+  border-radius: 50px;
+  max-width: 140px;
+}
+#header #user-info:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#header #user-info img {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+}
+#header #user-info p {
+  font-weight: 700;
+  font-size: 0.8rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+}
+#header #user-info i {
+  right: 5px;
+}
+
+#main-div-1 {
+  background-size: cover;
+  background-position: center;
+}
+#main-div-1 #primo-div {
+  height: 250px;
+}
+#main-div-1 #primo-div #arrow-circle {
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 20px;
+  left: 20px;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+}
+#main-div-1 #primo-div #verified {
+  color: rgb(44, 44, 255);
+}
+#main-div-1 #primo-div #verified i {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -53%);
+  font-size: 0.6rem;
+  color: white;
+}
+#main-div-1 #primo-div h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  #main-div-1 #primo-div h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 1200) {
+  #main-div-1 #primo-div h1 {
+    font-size: 4rem;
+  }
+}
+
+#main-div-2 {
+  background-image: linear-gradient(to bottom, rgba(192, 192, 192, 0.5) 0%, #121212 80%);
+}
+@media screen and (min-width: 768px) {
+  #main-div-2 {
+    background-image: transparent;
+  }
+}
+#main-div-2 .ascoltatori {
+  font-size: 0.9rem;
+  color: rgb(214, 214, 214);
+}
+#main-div-2 #terzo-div {
+  margin-top: -10px;
+}
+@media screen and (min-width: 768px) {
+  #main-div-2 #terzo-div {
+    margin-top: 0;
+  }
+}
+#main-div-2 #terzo-div i {
+  font-size: 1.2rem;
+}
+#main-div-2 #terzo-div .seguiti {
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  #main-div-2 #terzo-div .seguiti {
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 2px 5px;
+    text-transform: uppercase;
+  }
+}
+#main-div-2 #terzo-div .settings i {
+  font-size: 0.2rem;
+}
+#main-div-2 #terzo-div .play-circle {
+  background-color: #1db954;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+#sezione-canzoni {
+  padding-top: 20px;
+}
+#sezione-canzoni h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+#sezione-canzoni img {
+  width: 40px;
+  height: 40px;
+}
+#sezione-canzoni #brani-che-ti-piacciono {
+  flex: 0 0 40%;
+  height: fit-content;
+}
+#sezione-canzoni #brani-che-ti-piacciono p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+#sezione-canzoni #brani-che-ti-piacciono img {
+  border-radius: 100%;
+}
+#sezione-canzoni #brani-che-ti-piacciono #heart-div {
+  background-color: #1db954;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  bottom: 30px;
+  left: 25px;
+}
+#sezione-canzoni #brani-che-ti-piacciono #heart-div i {
+  font-size: 0.8rem;
+}
+#sezione-canzoni #brani-che-ti-piacciono div {
+  left: 55px;
+}
+#sezione-canzoni #brani-che-ti-piacciono p {
+  font-size: 0.8rem;
+}
+#sezione-canzoni #canzoni {
+  flex: 0 0 60%;
+}
+#sezione-canzoni #canzoni .song {
+  cursor: pointer;
+}
+#sezione-canzoni #canzoni .song:hover {
+  background-color: rgb(72, 72, 72);
+}
+#sezione-canzoni #canzoni .song-number {
+  flex: 0 0 10%;
+}
+#sezione-canzoni #canzoni .primo-div-canzoni {
+  flex: 0 0 80%;
+}
+@media screen and (min-width: 1200px) {
+  #sezione-canzoni #canzoni .primo-div-canzoni {
+    flex: 0 0 50%;
+  }
+}
+#sezione-canzoni #canzoni .primo-div-canzoni p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+#sezione-canzoni #canzoni .secondo-div-canzoni {
+  flex: 0 0 40%;
+}
+#sezione-canzoni #canzoni .menu {
+  font-size: 0.2rem;
+  flex: 0 0 10%;
+}
+
+.grey {
+  color: rgb(214, 214, 214);
+}
+
+.play-circle:hover {
+  background-color: black;
+}
+
+/*# sourceMappingURL=artists.css.map */
